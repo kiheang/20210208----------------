@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import 'variables'; 
+@include noto;
+@include roboto;
+@include dream;
+@include gmarket;
+
+
+/********* reset.css **********/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,b, u, i, center,
+dl, dt, dd, ul, ol, li,
+form, fieldset, legend, label, input, button, select, textarea,
+header, main, footer, section, article, aside, menu, nav, 
+table, caption, tbody, tfoot, thead, tr, th, td, summary,
+figure, figcaption, hgroup {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+html, body{width: 100%; height: 100%;}
+body{font-family: 'Gmarket Sans','Roboto','Noto Sans', sans-serif; font-size:100%; line-height: 1.4; color: #000; letter-spacing: -0.05em;}
+// header, main, footer, section, article, aside, menu, nav, summary,
+// figure, figcaption, hgroup {display: block;}
+// h1,h2,h3,h4,h5,h6 {font-size: 1em; font-weight: normal;}
+// ul,ol,li {list-style-type: none;}
+// a {color: inherit; text-decoration: none; display: block;}
+// img {max-width: 100%; border: 0 none;}
+// address {font-style: normal;}
+// span, b, i, strong {display: inline-block;}
+// caption, legend, .hide{clip: rect(0 0 0 0); width: 1px; height: 1px; position: absolute; overflow: hidden; margin: -1px; padding: 0; border: 0;}
+// .clear, ol:after, ul::after{display: block; content: ""; clear: both;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+h1,h2,h3,h4,h5,h6 {font-size: 1em; font-weight: normal;}
+ul,ol,li {list-style-type: none;}
+a {color: inherit; text-decoration: none;}
+img {max-width: 100%; border: 0 none;}
+address {font-style: normal;}
+button {margin: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 0 none; background-color: transparent; font-family: inherit; font-size: inherit; cursor: pointer;}
+caption,legend,figcaption{height: 1px; width: 1px; overflow: hidden; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px); margin: -1px; position: static;}
+table {border-spacing:0;border-collapse:collapse;table-layout:fixed;}
+/* form properties */
+.hide{clip: rect(0 0 0 0); width: 1px; height: 1px; position: absolute; overflow: hidden; margin: -1px; padding: 0; border: 0;}
+.clr{@include clearfix;}
+::placeholder{color: #777;}
+:-ms-input-placeholder{color: #777;}
+select:not([class^="ui-datepicker-"])::-ms-expand{display:none}
+input, select:not([class^="ui-datepicker-"]), textarea {font-size: 15px;height: 34px;padding:0 10px;
+	-webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; appearance: none; 
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;width: 100%; display: block; border:0;font-family: inherit;
+}
+input::-ms-check{display:none;}
+button {
+	-webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; appearance: none; 
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; cursor: pointer;
+}
+
+
+

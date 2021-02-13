@@ -1,0 +1,286 @@
+@mixin noto{
+	@font-face {
+	  font-family: 'Noto Sans';
+		font-weight: 200;
+	  font-style: normal;
+	  src: url('../fonts/NotoSansKR-Light.eot');
+	  src: local(※), url('../fonts/NotoSansKR-Light.eot#iefix') format('embedded-opentype'),
+	  url('../fonts/NotoSansKR-Light.woff') format('woff'),
+	  url('../fonts/NotoSansKR-Light.otf') format('opentype');
+	}
+	@font-face {
+	  font-family: 'Noto Sans';
+		font-weight: 300;
+	  font-style: normal;
+	  src: url('../fonts/NotoSansKR-DemiLight.eot');
+	  src: local(※), url('../fonts/NotoSansKR-DemiLight.eot#iefix') format('embedded-opentype'),
+	  url('../fonts/NotoSansKR-DemiLight.woff') format('woff'),
+	  url('../fonts/NotoSansKR-DemiLight.otf') format('opentype');
+	}
+	@font-face {
+	  font-family: 'Noto Sans';
+		font-weight: 400;
+	  font-style: normal;
+	  src: url('../common/fonts/NotoSansKR-Regular.eot');
+	  src: local(※), url('../fonts/NotoSansKR-Regular.eot#iefix') format('embedded-opentype'),
+	  url('../fonts/NotoSansKR-Regular.woff') format('woff'),
+	  url('../fonts/NotoSansKR-Regular.otf') format('opentype');
+	}
+	@font-face {
+	  font-family: 'Noto Sans';
+		font-weight: 500;
+	  font-style: normal;
+	  src: url('../fonts/NotoSansKR-Medium.eot');
+	  src: local(※), url('../fonts/NotoSansKR-Medium.eot#iefix') format('embedded-opentype'),
+	  url('../fonts/NotoSansKR-Medium.woff') format('woff'),
+	  url('../fonts/NotoSansKR-Medium.otf') format('opentype');
+	}
+	@font-face {
+	  font-family: 'Noto Sans';
+		font-weight: 700;
+	  font-style: normal;
+	  src: url('../fonts/NotoSansKR-Bold.eot');
+	  src: local(※), url('../fonts/NotoSansKR-Bold.eot#iefix') format('embedded-opentype'),
+	  url('../fonts/NotoSansKR-Bold.woff') format('woff'),
+	  url('../fonts/NotoSansKR-Bold.otf') format('opentype');
+	}
+}
+@mixin gmarket{
+	@font-face {
+		font-family: 'Gmarket Sans';    font-style: normal;    font-weight: 700;
+		src: local('Gmarket Sans Bold'), local('GmarketSans-Bold'),
+		url('../fonts/GmarketSansBold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../fonts/GmarketSansBold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	}
+	@font-face {
+		font-family: 'Gmarket Sans';    font-style: normal;    font-weight: 500;
+		src: local('Gmarket Sans Medium'), local('GmarketSans-Medium'),
+		url('../fonts/GmarketSansMedium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../fonts/GmarketSansMedium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	}
+	@font-face {
+		font-family: 'Gmarket Sans';    font-style: normal;    font-weight: 300;
+		src: local('Gmarket Sans Light'), local('GmarketSans-Light'),
+		url('../fonts/GmarketSansLight.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../fonts/GmarketSansLight.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	}
+}
+@mixin roboto{
+	@font-face {
+		font-family: 'Roboto';
+		font-weight: 300;
+		font-style: normal;
+		src: url('../fonts/Roboto-Light.eot');
+		src: url('../fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/Roboto-Light.woff') format('woff'),
+				url('../fonts/Roboto-Light.otf') format('opentype');
+		unicode-range: U+0030-0039;
+	}
+	@font-face {
+		font-family: 'Roboto';
+		font-weight: 400;
+		font-style: normal;
+		src: url('../fonts/Roboto-Regular.eot');
+		src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/Roboto-Regular.woff') format('woff'),
+				url('../fonts/Roboto-Regular.otf') format('opentype');
+		unicode-range: U+0030-0039;
+	}
+	@font-face {
+		font-family: 'Roboto';
+		font-weight: 500;
+		font-style: normal;
+		src: url('../fonts/Roboto-Medium.eot');
+		src: url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/Roboto-Medium.woff') format('woff'),
+				url('../fonts/Roboto-Medium.otf') format('opentype');
+		unicode-range: U+0030-0039;
+	}
+	@font-face {
+		font-family: 'Roboto';
+		font-weight: 700;
+		font-style: normal;
+		src: url('../fonts/Roboto-Bold.eot');
+		src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/Roboto-Bold.woff') format('woff'),
+				url('../fonts/Roboto-Bold.otf') format('opentype');
+		unicode-range: U+0030-0039;
+	}
+}
+@mixin dream {
+	@font-face {
+		font-family: 'S-Core-Dream';
+		font-weight: 300;
+		font-style: normal;
+		src: url("../fonts/SCDream3.eot");
+		src: url("../fonts/SCDream3.eot?#iefix") format("embedded-opentype"), url("../fonts/SCDream3.woff") format("woff"), url("../fonts/SCDream3.otf") format("opentype");
+	  }
+	  
+	  @font-face {
+		font-family: 'S-Core-Dream';
+		font-weight: 400;
+		font-style: normal;
+		src: url("../fonts/SCDream4.eot");
+		src: url("../fonts/SCDream4.eot?#iefix") format("embedded-opentype"), url("../fonts/SCDream4.woff") format("woff"), url("../fonts/SCDream4.otf") format("opentype");
+	  }
+	  
+	  @font-face {
+		font-family: 'S-Core-Dream';
+		font-weight: 500;
+		font-style: normal;
+		src: url("../fonts/SCDream5.eot");
+		src: url("../fonts/SCDream5.eot?#iefix") format("embedded-opentype"), url("../fonts/SCDream5.woff") format("woff"), url("../fonts/SCDream5.otf") format("opentype");
+	  }
+	  
+	  @font-face {
+		font-family: 'S-Core-Dream';
+		font-weight: 700;
+		font-style: normal;
+		src: url("../fonts/SCDream7.eot");
+		src: url("../fonts/SCDream7.eot?#iefix") format("embedded-opentype"), url("../fonts/SCDream7.woff") format("woff"), url("../fonts/SCDream7.otf") format("opentype");
+	  }
+}
+@mixin jalnan{
+	@font-face {
+		font-family: 'Jalnan';
+		font-weight: 400;
+		font-style: normal;
+		src: url('../fonts/Jalnan.eot');
+		src: url('../fonts/Jalnan.eot?#iefix') format('embedded-opentype'),
+				url('../fonts/Jalnan.woff') format('woff'),
+				url('../fonts/Jalnan.otf') format('opentype');
+	}
+}
+/* 210108 추가 */
+@mixin nexon {
+	@font-face {
+		font-family: 'nexon_lv2_g';
+		font-weight: 300;
+		font-style: normal;
+		src: url("../fonts/NEXON Lv2 Gothic Light.eot");
+		src: url("../fonts/NEXON Lv2 Gothic Light.eot?#iefix") format("embedded-opentype"), url("../fonts/NEXON Lv2 Gothic Light.woff") format("woff"), url("../fonts/NEXON Lv2 Gothic OTF Light.otf") format("opentype");
+	  }
+	@font-face {
+		font-family: 'nexon_lv2_g';
+		font-weight: 400;
+		font-style: normal;
+		src: url("../fonts/NEXON Lv2 Gothic.eot");
+		src: url("../fonts/NEXON Lv2 Gothic.eot?#iefix") format("embedded-opentype"), url("../fonts/NEXON Lv2 Gothic.woff") format("woff"), url("../fonts/NEXON Lv2 Gothic OTF.otf") format("opentype");
+	}
+	@font-face {
+		font-family: 'nexon_lv2_g';
+		font-weight: 700;
+		font-style: normal;
+		src: url("../fonts/NEXON Lv2 Gothic Bold.eot");
+		src: url("../fonts/NEXON Lv2 Gothic Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NEXON Lv2 Gothic Bold.woff") format("woff"), url("../fonts/NEXON Lv2 Gothic OTF Bold.otf") format("opentype");
+	}
+}
+$imgPath: "../images/";
+
+//color
+$black1 : #222;
+$black2 : #555;
+$red: #e42121;
+$orange: #ff9000;
+$orange2: #f56200;
+$yellow: #ffc107;
+$blue: #0067d1;
+$green1: #00832b;
+$green2: #00aa38;
+$brown: #b63c00;
+$pink: #f66184;
+$gray-black: #222;
+$gray-deep: #343434;
+$gray-dark: #666;
+$gray-base: #757575;
+$gray-medium: #a4a4a4;
+$gray-medium2: #cecece;
+$gray-light: #fafafa;
+$popup-bg: rgba(0,0,0,0.8);
+$point-color1: #0379d5;
+$point-color2: #04a2a1;
+$point-color3: #495f74;
+$point-color4: #ffd200;
+$bg-color1: #f9fafb;
+$bg-color2: #f5f7f9;
+
+@mixin speed{
+	transition: all 0.3s;
+}
+@mixin speed_1{
+	transition: all 0.2s;
+}
+@mixin speed2{
+	transition: all 5s;
+}
+@mixin va-m($font-size...){
+	font-size: 0;
+	&:before{content: ''; display: inline-block; height: 100%; vertical-align: middle;}
+	>.va_m{display: inline-block; font-size: $font-size; vertical-align: middle;}
+}
+@mixin ell1{
+	max-width: 100%; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;
+}
+@mixin ell2{
+	text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+}
+@mixin ell3{
+	text-overflow: ellipsis; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+}
+//border
+$border-base: 1px solid #ddd;
+$border-dashed: 1px dashed #ddd;
+
+//font-size
+$fz-base: 1rem;
+$fz-min: 0.625rem; //10px
+$fz-xxxs: 0.75rem; //12px
+$fz-xxs: 0.813rem; //13px
+$fz-xs: 0.875rem; //14px
+$fz-sm: 0.938rem; //15px
+$fz-md: 1.063rem; //17px
+$fz-md2: 1.125rem; //18px
+$fz-lg: 1.25rem; //20px
+$fz-xl: 1.375rem; //22px
+$fz-xxl: 1.5rem; //24px
+$fz-xxxl: 1.625rem; //26px
+
+//style
+$header-height: 55px;
+$ff-noto: 'Noto Sans', sans-serif;
+$ff-roboto: 'Roboto';
+
+$lh-base: 1.3;
+$lh-md: 1.4;
+$lh-lg: 1.5;
+
+$border: 1px solid #ddd;
+$table-border: 1px solid #ccc;
+
+@mixin transform($attr){
+	-ms-transform: $attr;
+	transform: $attr;
+}
+
+//mixin
+@mixin clearfix{&:after{content: ''; display: block; clear: both;}}
+// 반응형 중단점
+$container: 1578px;
+$desktop: 1201px;
+$tablet: 1000px;
+$mobile: 768px;
+@mixin maxWidth($width){
+	@media screen and (max-width:$width){
+        @content;
+    }
+}
+@mixin minWidth($width){
+	@media screen and (min-width:$width){
+        @content;
+    }   
+}
+@mixin desktop {
+	@media (min-width: #{$desktop}) {
+	  @content;
+	}
+  }

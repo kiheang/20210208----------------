@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>엔티시스 리뉴얼 홈페이지 구축 작업현황판</title>
+    <style>
+      html,
+      body,
+      div,
+      span,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      a,
+      em,
+      img,
+      strong,
+      b,
+      dl,
+      dt,
+      dd,
+      ul,
+      ol,
+      li,
+      label,
+      legend,
+      table,
+      caption,
+      tbody,
+      tfoot,
+      thead,
+      tr,
+      th,
+      td,
+      footer,
+      header,
+      menu,
+      nav,
+      section {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        padding: 2em;
+        line-height: 1.4;
+        font-family: applegothic, "나눔고딕", nanumgothic, "맑은 고딕",
+          malgungothic, dotum, "돋움";
+        font-size: 13px;
+        color: #333;
+      }
+      ul,
+      ol {
+        list-style-type: none;
+      }
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+      h1 {
+        font-size: 1.45em;
+      }
+      h2 {
+        margin-bottom: 5px;
+        font-size: 1.3em;
+      }
+      h3 {
+        font-size: 1.2em;
+      }
+      th {
+        vertical-align: middle;
+        word-break: break-all;
+      }
+      td {
+        vertical-align: middle;
+        word-break: break-all;
+      }
+      a {
+        color: #666;
+      }
+      .hidden {
+        position: absolute;
+        top: -99999em;
+        left: -99999em;
+      }
+      .info {
+        margin: 0 0 3em;
+        width: 100%;
+        border-top: 1px dashed #ddd;
+      }
+      .info th {
+        padding: 0.5em 1em;
+        border-bottom: 1px dashed #ddd;
+        text-align: left;
+        border-right: 0;
+        background-color: #f6f6f6;
+      }
+      .info td {
+        padding: 0.5em 1em;
+        border-bottom: 1px dashed #ddd;
+        text-align: left;
+        border-left: 0;
+      }
+      .work {
+        width: 100%;
+        margin: 0 0 3em;
+        width: 100%;
+        border-top: 2px solid #aaa;
+      }
+      .work th {
+        font-family: "calbri";
+        padding: 0.5em;
+        border: 1px solid #ddd;
+        border-left-width: 0;
+        background: #f9f9f9;
+      }
+      .work td {
+        padding: 0.5em;
+        border-bottom: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        background: #fff;
+        vertical-align: middle;
+      }
+      .work th:last-child,
+      .work td:last-child {
+        border-right-width: 0;
+      }
+      .tit td {
+        border-top: 2px solid #ccc;
+      }
+      .work td:first-child,
+      .work td:nth-last-child(2) {
+        text-align: center;
+        color: #666;
+      }
+      .yellow td {
+        background: #fff8d0;
+      }
+      .red {
+        color: #dc5959;
+      }
+      .status {
+        text-align: right;
+        margin-bottom: 10px;
+      }
+      .status h2 {
+        float: left;
+      }
+      .status span {
+        display: inline-block;
+        margin-left: 10px;
+      }
+      .tit1 {
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="font-family: 'calbri'">Project info.</h2>
+    <table class="info">
+      <caption>
+        <span class="hidden">프로젝트 기본 정보</span>
+      </caption>
+      <colgroup>
+        <col style="width: 180px" />
+        <col />
+      </colgroup>
+      <tbody>
+        <tr>
+          <th scope="row">1. 프로젝트명</th>
+          <td>엔티시스 리뉴얼 홈페이지 구축 작업현황판</td>
+        </tr>
+        <tr>
+          <th scope="row">2. 인코딩 방식</th>
+          <td>utf-8</td>
+        </tr>
+        <tr>
+          <th scope="row">3. dtd 사용</th>
+          <td>Html5</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="status">
+      <h2 style="font-family: 'calbri'">Publish List</h2>
+      <span>○ 퍼블 대기중</span> <span>◐ 퍼블 작업중</span>
+      <span>● 퍼블 완료</span>
+    </div>
+    <table class="work">
+      <colgroup>
+        <col style="width: 10%" />
+        <col style="width: 15%" />
+        <col style="width: 15%" />
+        <col style="width: 12%" />
+        <col style="width: 18%" />
+        <col style="width: 50px" />
+        <col />
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">1Dep</th>
+          <th scope="col">2Dep</th>
+          <th scope="col">3Dep</th>
+          <th scope="col">4Dep</th>
+          <th scope="col">FileName</th>
+          <th scope="col">ing</th>
+          <th scope="col">Memo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="tit">
+          <td>메인</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><a href="index.html" target="_blank">index.html</a></td>
+          <td>●</td>
+          <td>메인 기본페이지</td>
+        </tr>
+        <tr class="tit">
+          <td>서브</td>
+          <td>business</td>
+          <td></td>
+          <td></td>
+          <td><a href="business.html" target="_blank">besiness.html</a></td>
+          <td>◐ </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>company</td>
+          <td></td>
+          <td></td>
+          <td>
+            <a href="company.html" target="_blank">company.html</a>
+          </td>
+          <td>●</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>solution</td>
+          <td></td>
+          <td></td>
+          <td>
+            <a href="solution.html" target="_blank">solution.html</a>
+          </td>
+          <td>◐ </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>contactus</td>
+          <td></td>
+          <td></td>
+          <td>
+            <a href="contactUs.html" target="_blank">contactUs.html</a>
+          </td>
+          <td>●</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>portfolio_list</td>
+          <td></td>
+          <td></td>
+          <td>
+            <a href="porfolio_list.html" target="_blank">porfolio_list.html</a>
+          </td>
+          <td>●</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>portfolio</td>
+          <td>상세</td>
+          <td></td>
+          <td>
+            <a href="portfolio_detail.html" target="_blank">portfolio.html</a>
+          </td>
+          <td>●</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
